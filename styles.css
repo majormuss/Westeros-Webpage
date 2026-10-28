@@ -1,0 +1,224 @@
+body{
+   margin: 0;
+   position: relative;
+    
+    
+}
+
+
+.sigils-map-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+#westeros-map img{
+display: block;
+width: 100%;
+height:auto;
+outline: 2px solid red;
+}
+
+.legend-compass ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.sigils-container img{ 
+    width: 100px;
+    height: auto;
+}
+
+.sigils-container{
+    position: absolute;
+    inset: 0;
+}
+
+li, h1{
+    color:aliceblue;
+    list-style: none;
+    display: inline-flex;
+    padding-left: 25px;
+
+}
+
+figcaption{
+    color: aliceblue;
+}
+
+.left-banner-container{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-evenly;
+    position: absolute;
+    width: 450px;
+    z-index: 10;
+    
+    
+
+    outline: 2px solid green;
+}
+
+.left-banner-container > img {
+    width: 100%;
+    height: auto;}
+
+.left-banner-content{
+ display: inline-flex;
+flex-direction: column;
+position:absolute;
+top: 50px;
+justify-content: space-evenly;
+outline: 2px solid red;
+height: 600px;
+right: 0;
+left: 0;
+top: 50px;
+bottom: 0;
+}
+
+.body{
+font-size: 20px;
+letter-spacing: 5px;
+line-height: 1.5em;
+
+}
+
+#heading{
+    letter-spacing: 1em;
+    line-height: 2em ;
+    padding-bottom: 10px;
+    
+}
+
+.divider{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.left-banner-content h2{
+    border: 1px solid goldenrod;
+    color: aliceblue;
+     text-align: center;  
+     padding: 10px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    outline: 2px solid goldenrod;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100px;
+}
+
+.header-content{
+ display: inline-flex;
+ outline: 2px solid greenyellow;
+ width: 100%;
+ 
+}
+
+body nav ul{
+    padding-left: 300px;
+    right: 300px;
+    position:absolute;
+}
+
+body nav li{
+padding-left: 50px;
+padding-top: 10px;
+font-size: 20px;
+}
+
+body h1{
+    letter-spacing: 12px;
+}
+
+.legend-compass{
+display:inline-flex;
+align-items: flex-start;
+justify-content: flex-end;
+position: absolute;
+top: 70px;
+right: 20px;
+flex-direction: column;
+height: 700px;
+outline: 2px solid red;
+
+}
+.stark {
+    position: absolute;
+    top: 29%;
+    left: 54%;
+    width: 5%;
+}
+.stark img{
+    width: 100%;
+    height: auto;
+}
+
+.targaryen img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.targaryen {
+    position: absolute;
+    top: 67%;
+    right: 33%;
+    width: 3%;
+}
+
+.tyrell {
+    position: absolute;
+    top: 78%;
+    right: 50%;
+    width: 3%;
+}
+
+.tyrell img{
+    width: 100%;
+    height: auto;
+}
+
+.lannister {
+    position: absolute;
+    top: 65%;
+    right: 57%;
+    width: 3%;
+}
+
+.lannister img{
+    width: 100%;
+    height: auto;
+}
+
+.tully {
+    position: absolute;
+    top: 58%;
+    right: 44%;
+    width: 3%;
+}
+.tully img{
+    width: 100%;
+    height: auto;
+}
+
+.baratheon {
+    position: absolute;
+    top: 74%;
+    right: 25%;
+    width: 3%;
+}
+
+.baratheon img{
+    width: 100%;
+    height: auto;
+}
